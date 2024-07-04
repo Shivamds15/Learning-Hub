@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Shivam Singh">
+    <meta name="date" content="2024-07-04">
+    <title>Learning Hub</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo"><i class="fas fa-laptop-code"></i> Learning Hub</a>
+        <nav class="navbar">
+            <div id="nav-close" class="fas fa-times"></div>
+            <a href="#home">Home</a>
+            <a href="#testimonials">Testimonials</a>
+            <a href="#languages">Languages</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="wrapper">
+            <div class="box" style="background: url(images/home1.jpg) no-repeat;">
+                <div class="content">
+                    <span>Welcome to</span>
+                    <h3>Learning Hub</h3>
+                    <p>Learning Hub is your go-to institute for mastering new programming languages. We offer a variety of courses tailored to help you achieve fluency and confidence in coding.</p>
+                    <a href="#testimonials" class="btn">Get Started</a>
+                </div>
+            </div>  
+        </div>
+    </section>
+
+    <!-- Testimonials section -->
+
+    <section class="testimonials" id="testimonials">
+        <h1 class="heading">Student Testimonials</h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="images/student1.jpg" alt="Student1Img">
+                <h3>John Doe</h3>
+                <p>"Learning Hub has transformed my programming skills. The instructors are fantastic and the curriculum is very engaging."</p>
+            </div>
+            <div class="box">
+                <img src="images/student2.jpg" alt="Student2Img">
+                <h3>Jane Smith</h3>
+                <p>"I never thought I could learn Python so quickly. The immersive approach at Learning Hub is outstanding."</p>
+            </div>
+            <div class="box">
+                <img src="images/student4.jpg" alt="Student3Img">
+                <h3>Siddhart Singh</h3>
+                <p>"The small class sizes and personalized attention made all the difference. Highly recommend Learning Hub."</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Programming Languages section -->
+
+    <section class="languages" id="languages">
+        <h1 class="heading">Programming Languages We Teach</h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="image">
+                    <img src="images/python.jpg" alt="PythonImg">
+                </div>
+                <div class="content">
+                    <h3>Python</h3>
+                    <p>Our Python courses are designed to improve your coding skills from beginner to advanced levels, focusing on data science, web development, and automation.</p>
+                    <a href="#contact" class="btn">Learn More</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="images/javascript.jpg" alt="JavaScriptImg">
+                </div>
+                <div class="content">
+                    <h3>JavaScript</h3>
+                    <p>Whether you’re new to JavaScript or looking to deepen your understanding, our courses cover front-end development, frameworks, and back-end programming.</p>
+                    <a href="#contact" class="btn">Learn More</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="images/java.jpg" alt="JavaImg">
+                </div>
+                <div class="content">
+                    <h3>Java</h3>
+                    <p>Learn Java from scratch or enhance your skills with our comprehensive courses that include topics like OOP, data structures, and enterprise applications.</p>
+                    <a href="#contact" class="btn">Learn More</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="images/csharp.jpg" alt="CSharpImg">
+                </div>
+                <div class="content">
+                    <h3>C#</h3>
+                    <p>Our C# courses are perfect for those looking to improve their skills for personal or professional reasons, focusing on web and game development.</p>
+                    <a href="#contact" class="btn">Learn More</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="images/ruby.jpg" alt="RubyImg">
+                </div>
+                <div class="content">
+                    <h3>Ruby</h3>
+                    <p>Join our Ruby programming courses and explore the fundamentals and advanced concepts of Ruby and Ruby on Rails for web development.</p>
+                    <a href="#contact" class="btn">Learn More</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="images/cplusplus.jpg" alt="CPlusPlusImg">
+                </div>
+                <div class="content">
+                    <h3>C++</h3>
+                    <p>Our C++ courses are designed to help you communicate effectively in both written and spoken C++, focusing on performance-critical applications.</p>
+                    <a href="#contact" class="btn">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="wrapper1">
+            <div class="title1">
+                <h1>Contact Us</h1>
+            </div>
+            <div class="contact-form">
+                <form method="post" action="contact.php">
+                    <div class="input-fields">
+                        <input type="text" class="input" placeholder="Name" name="name" required>
+                        <input type="email" class="input" placeholder="Email Address" name="email" pattern=".+@gmail\.com" required>
+                        <input type="phone" class="input" placeholder="Phone" name="phone" required>
+                        <input type="text" class="input" placeholder="Subject" name="subject" required>
+                    </div>
+                    <div class="msg">
+                        <textarea placeholder="Message" name="message"></textarea><br>
+                        <div class="btn1"><button type="submit">Send <i class="uil uil-message"></i></button></div>
+                    </div>
+                </form>
+            </div>
+        </div> 
+    </section>
+
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>Quick Links</h3>
+                <a href="#home">Home</a>    
+                <a href="#languages">Languages</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="box">
+                <h3>Extra Links</h3>
+                <a href="#contact">Ask Questions</a>
+                <a href="#">Terms of Use</a>
+                <a href="#">Privacy Policy</a>
+            </div>
+            <div class="box">
+                <h3>Contact Info</h3>
+                <a href="#"> <i class="fas fa-phone"></i> +91 1234567890 </a>
+                <a href="#"> <i class="fas fa-envelope"></i> shivamsingh910672@gmail.com </a>
+                <a href="#"> <i class="fas fa-map"></i> Gujarat, India </a>
+            </div>
+            <div class="box">
+                <h3>Follow Us</h3>
+                <a href="#"> <i class="fab fa-facebook-f"></i> Facebook </a>
+                <a href="#"> <i class="fab fa-instagram"></i> Instagram </a>
+                <a href="#"> <i class="fab fa-linkedin"></i> LinkedIn </a>
+                <a href="#"> <i class="fab fa-github"></i> GitHub </a>
+            </div>
+        </div>
+        <div class="credit">&#169; 2024 Created by <span>Shivam Singh</span> | All rights reserved!</div>
+    </section>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
