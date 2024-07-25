@@ -14,7 +14,7 @@ Learning Hub is a modern and stylish educational platform designed to showcase c
 
 ## Demo
 
-You can see a live demo of the project [here](https://shivamds15.github.io/Learning-Hub/).
+You can see a live demo of the project [here](https://shivamds15.github.io/Learning-Hub-Web/).
 
 ## Installation
 
